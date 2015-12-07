@@ -1,0 +1,466 @@
+Mono path[0] = 'C:/Users/Xavier/Documents/UNet/Build1_Data/Managed'
+Mono path[1] = 'C:/Users/Xavier/Documents/UNet/Build1_Data/Mono'
+Mono config path = 'C:/Users/Xavier/Documents/UNet/Build1_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Xavier/Documents/UNet/Build1_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55122
+Multi-casting "[IP] 192.168.0.26 [Port] 55122 [Flags] 2 [Guid] 3409287876 [EditorId] 3263337500 [Version] 1048832 [Id] WindowsPlayer(Dion) [Debug] 0" to [225.0.0.222:54997]...
+PlayerConnection already initialized - listening to [192.168.0.26:55122]
+Initialize engine version: 5.2.3f1 (f3d16a1fa2dd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 (ID=0x1381)
+    Vendor:   NVIDIA
+    VRAM:     1993 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Xavier\Documents\UNet\Build1_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Xavier\Documents\UNet\Build1_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Xavier\Documents\UNet\Build1_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Xavier\Documents\UNet\Build1_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Xavier\Documents\UNet\Build1_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Xavier\Documents\UNet\Build1_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Xavier\Documents\UNet\Build1_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Xavier\Documents\UNet\Build1_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Xavier\Documents\UNet\Build1_Data\Managed\System.Core.dll (this message is harmless)
+- Completed reload, in  0.190 seconds
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+Platform assembly: C:\Users\Xavier\Documents\UNet\Build1_Data\Managed\System.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 4588 -> priority: 1 
+0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Start() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:30)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 30)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.3346412 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+Can't shoot yet
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:76)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 76)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.2167381 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+Can't shoot yet
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:76)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 76)
+
+shotTime = 0.4002016 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+Can't shoot yet
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:76)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 76)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.3501115 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+Can't shoot yet
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:76)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 76)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.200356 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+Can't shoot yet
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:76)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 76)
+
+shotTime = 0.3671502 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+Can't shoot yet
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:76)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 76)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.1997645 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+Can't shoot yet
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:76)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 76)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.3830966 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+Can't shoot yet
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:76)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 76)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.4154417 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+Can't shoot yet
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:76)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 76)
+
+shotTime = 0.5 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+SUCCESS SHOT
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:61)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 61)
+
+shotTime = 0.4333667 weaponSTime = 0.5
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:59)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 59)
+
+Can't shoot yet
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:Log(Object)
+PlayerShoot:Shoot() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:76)
+PlayerShoot:Update() (at C:\Users\Xavier\Documents\UNet\Assets\PlayerShoot.cs:36)
+ 
+(Filename: C:/Users/Xavier/Documents/UNet/Assets/PlayerShoot.cs Line: 76)
+
+Log: connection {1} has been disconnected by timeout; address {::ffff:127.0.0.1:7777}
+UNet Client Disconnect Error: Timeout
+UnityEngine.Debug:Internal_Log(Int32, String, Object)
+UnityEngine.Debug:LogError(Object)
+UnityEngine.Networking.NetworkClient:GenerateDisconnectError(Int32) (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:614)
+UnityEngine.Networking.NetworkClient:Update() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:569)
+UnityEngine.Networking.NetworkClient:UpdateClients() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkClient.cs:774)
+UnityEngine.Networking.NetworkIdentity:UNetStaticUpdate() (at C:\buildslave\unity\build\Extensions\Networking\Runtime\NetworkIdentity.cs:916)
+ 
+(Filename: C:/buildslave/unity/build/Extensions/Networking/Runtime/NetworkClient.cs Line: 614)
+
