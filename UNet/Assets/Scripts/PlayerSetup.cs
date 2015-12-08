@@ -50,7 +50,7 @@ public class PlayerSetup : NetworkBehaviour {
 	public void OnDisable(){
 		if (sceneCamera != null) {
 			sceneCamera.gameObject.SetActive(true);
-			GetComponentInChildren<AudioListener>().enabled = false;
+			//GetComponentInChildren<AudioListener>().enabled = false;
 		}
 
 		GameManager.DeRegisterPlayer (transform.name);

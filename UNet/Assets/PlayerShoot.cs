@@ -1,13 +1,28 @@
 ﻿using UnityEngine;
 using UnityEngine.Networking;
 using System.Collections;
-
+[RequireComponent(typeof(AudioSource))]
 public class PlayerShoot : NetworkBehaviour {
 
 	private const string PLAYER_TAG = "Player";
 
 	public PlayerWeaponScript weapon;
 	private float shotTime;
+
+	[SerializeField]
+	private GameObject Bullet_Emitter;
+
+	[SerializeField]
+	private AudioClip AFire;
+
+	[SerializeField]
+	private AudioClip Fatality;
+
+	[SerializeField]
+	private AudioSource ASource;
+
+	[SerializeField]
+	private GameObject MuzzleFlash;
 
 	[SerializeField]
 	private Animator PlayerAnimator;
@@ -37,6 +52,7 @@ public class PlayerShoot : NetworkBehaviour {
 		}
 		if(PlayerAnimator.GetCurrentAnimatorStateInfo(0).IsName ("GunShot")){
 			PlayerAnimator.SetBool("isShooting", false);
+		
 		}
 
 		if(shotTime != weapon.shotTime){
@@ -48,6 +64,23 @@ public class PlayerShoot : NetworkBehaviour {
 	}
 
 
+	[Command]
+	void CmdMuzzle(Vector3 _position){
+
+		RpcMuzzle (_position);
+	}
+
+
+	[ClientRpc]
+	void RpcMuzzle(Vector3 position){
+		if (isLocalPlayer) {
+			return;
+		}
+		MuzzleFlash.GetComponent<ParticleSystem> ().Play ();
+		AudioSource.PlayClipAtPoint (AFire, position );
+
+	}
+
 	[Client]
 	void Shoot(){
 
@@ -55,14 +88,22 @@ public class PlayerShoot : NetworkBehaviour {
 		if (shotTime >= weapon.shotTime) {
 
 			if(isLocalPlayer){
+
 				PlayerAnimator.SetBool("isShooting", true);
+				MuzzleFlash.GetComponent<ParticleSystem> ().Play ();
+				Vector3 MyPosition = this.transform.position;
+				CmdMuzzle (MyPosition);
+				ASource.Play ();
+				Debug.Log (ASource.isPlaying);
+
+
 			}
 			string x = this.GetComponent<NetworkIdentity> ().name;
 			RaycastHit hit;
 			if (Physics.Raycast (cam.transform.position, cam.transform.forward, out hit, weapon.range, mask)) {
 				if (hit.collider.tag == PLAYER_TAG) {
 
-					CmdPlayerShot (hit.collider.name, x, weapon.damage);
+					CmdPlayerShot (hit.collider.name, weapon.damage, this.gameObject);
 				}
 			}
 			shotTime = 0;
@@ -74,17 +115,25 @@ public class PlayerShoot : NetworkBehaviour {
 
 
 
+	[ClientRpc]
+	void RpcPlayFatality(){
+		this.ASource.PlayOneShot (Fatality);
 
+	}
 	
 
 	[Command]
-	void CmdPlayerShot(string PlayerID, string x, int _damage){
+	void CmdPlayerShot(string PlayerID, int _damage, GameObject x){
 
-	
-		Debug.Log (PlayerID + " has been shot by " + x);
+		string Shooter = x.name;
 
 		Player _player = GameManager.GetPlayer (PlayerID);
-		_player.TakeDamage (_damage);
+		bool DidDie = _player.TakeDamage (_damage, Shooter);
+		if (DidDie){
+			RpcPlayFatality();
+			x.GetComponent<Player>().RegisterKill();
+			Debug.Log ("This many kills! : " + x.GetComponent<Player>().ReturnKills());
+		}
 
 	}
 }

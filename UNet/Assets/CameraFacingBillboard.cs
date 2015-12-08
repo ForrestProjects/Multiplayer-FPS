@@ -1,12 +1,15 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.Networking;
 
-public class CameraFacingBillboard : MonoBehaviour
+public class CameraFacingBillboard : NetworkBehaviour
 {
 	public Camera m_Camera;
 	
 	void Update()
 	{
-		transform.LookAt(transform.position + m_Camera.transform.rotation * Vector3.forward, m_Camera.transform.rotation * Vector3.up);
+		if (!isLocalPlayer) {
+			transform.LookAt (transform.position + m_Camera.transform.rotation * Vector3.forward, m_Camera.transform.rotation * Vector3.up);
+		}
 	}
 }

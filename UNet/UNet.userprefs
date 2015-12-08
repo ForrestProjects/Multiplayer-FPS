@@ -1,10 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\blexbox\InstantGoodDay\script\InstantGoodDay.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\PlayerShoot.cs">
     <Files>
-      <File FileName="Assets\blexbox\InstantGoodDay\script\InstantGoodDay.cs" Line="144" Column="2" />
-      <File FileName="Assets\HoverBar.cs" Line="12" Column="2" />
+      <File FileName="Assets\Scripts\PlayerSetup.cs" Line="37" Column="43" />
+      <File FileName="Assets\GameManager.cs" Line="19" Column="3" />
       <File FileName="Assets\Player.cs" Line="1" Column="1" />
+      <File FileName="Assets\PlayerShoot.cs" Line="119" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

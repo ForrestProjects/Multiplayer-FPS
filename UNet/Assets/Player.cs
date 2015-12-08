@@ -7,6 +7,9 @@ public class Player : NetworkBehaviour {
 	private int maxHealth = 100;
 
 	[SyncVar]
+	private int Kills;
+
+	[SyncVar]
 	private int currentHealth;
 
 	private bool shouldDie = false;
@@ -32,6 +35,7 @@ public class Player : NetworkBehaviour {
 
 	
 	void Update(){
+		Debug.Log ("Is dead value : " + isDead);
 		CheckCondition ();
 		if (isLocalPlayer) {
 			HP.SyncHP (currentHealth);
@@ -61,10 +65,16 @@ public class Player : NetworkBehaviour {
 		}
 	}
 
-	public void TakeDamage(int _amount){
+	public bool TakeDamage(int _amount, string Shooter){
 
 		currentHealth -= _amount;
+		if(currentHealth <= 0){
+			currentHealth = 0;
+			Debug.Log (this.name + " was murdererd by " + Shooter);
+			return true;
+		}
 		Debug.Log (transform.name + " now has " + currentHealth + " health.");
+		return false;
 	}
 
 	public void SetDefaults(){
@@ -75,5 +85,13 @@ public class Player : NetworkBehaviour {
 	public void ResetHealth(){
 
 		currentHealth = maxHealth;
+	}
+
+	public void RegisterKill(){
+		Kills++;
+	}
+
+	public int ReturnKills(){
+		return Kills;
 	}
 }
