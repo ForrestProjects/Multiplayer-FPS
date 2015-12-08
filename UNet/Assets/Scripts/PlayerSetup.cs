@@ -12,6 +12,7 @@ public class PlayerSetup : NetworkBehaviour {
 
 	Camera sceneCamera;
 
+
 	void Start(){
 		if (!isLocalPlayer) {
 			DisableComponents ();

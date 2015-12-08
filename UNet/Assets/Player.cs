@@ -19,6 +19,11 @@ public class Player : NetworkBehaviour {
 	public delegate void RespawnDelegate();
 	public event RespawnDelegate EventRespawn;
 
+	
+	public int ReturnHealth(){
+		int y = currentHealth;
+		return y;
+	}
 	void Awake(){
 		SetDefaults ();
 		MM.LockCursor ();

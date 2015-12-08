@@ -5,12 +5,14 @@ using UnityEngine.Networking;
 
 public class HealthBar : MonoBehaviour {
 
+	public Image HoverBar;
 	public Player Player;
 	public Image Bar;
 
 	void Start(){
 
 	}
+	
 
 	public void SyncHP(int HP){
 

@@ -45,9 +45,22 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Extras\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
-     <None Include="Assets\Extras\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
-     <None Include="Assets\Extras\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <Compile Include="Assets\Editor\CrossPlatformInput\CrossPlatformInputInitialize.cs" />
+     <Compile Include="Assets\FT_ImpactEffects_Vol01\Editor\FTIE01_ParticleControllerEditor.cs" />
+     <Compile Include="Assets\blexbox\InstantGoodDay\Editor\InstantGoodDayEditor.cs" />
+     <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
+     <None Include="Assets\FT_ImpactEffects_Vol01\Documents\readme.txt" />
+     <None Include="Assets\FT_ImpactEffects_Vol01\Shader\FT_EmissionChannel.shader" />
+     <None Include="Assets\FT_ImpactEffects_Vol01\Shader\FT_Emission_DoubleSide.shader" />
+     <None Include="Assets\FT_ImpactEffects_Vol01\Shader\FT_Emission.shader" />
+     <None Include="Assets\FT_ImpactEffects_Vol01\Shader\FT_Panner.shader" />
+     <None Include="Assets\FT_ImpactEffects_Vol01\Shader\FT_AlphaBlend.shader" />
+     <None Include="Assets\FT_ImpactEffects_Vol01\Shader\FT_EmissionChannel_DoubleSide.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\blexbox\InstantGoodDay\material\bbDifuseNoFog.shader" />
+     <None Include="Assets\blexbox\InstantGoodDay\material\bbDifuseAlphaNoFog.shader" />
+     <None Include="Assets\FT_ImpactEffects_Vol01\Shader\FT_Panner_DoubleSide.shader" />
+     <None Include="Assets\FT_ImpactEffects_Vol01\Shader\FT_Distortion.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -106,6 +119,8 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{2C2363E9-0F6F-B18D-E9FE-1F2BD0D4B19E}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript.unityproj">
+      <Project>{06D87104-4E0C-0E70-806F-991998DD9539}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
