@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Networking;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Player))]
 public class PlayerSetup : NetworkBehaviour {
@@ -19,7 +20,14 @@ public class PlayerSetup : NetworkBehaviour {
 			AssignRemoteLayer ();
 
 		} else {
-
+			GameObject Crosshair = GameObject.Find ("GameManager").GetComponent<GameManagerReferences>().crosshairHolder;
+			Crosshair.SetActive(true);
+			GameObject LocalHealthBar = GameObject.Find ("GameManager").GetComponent<GameManagerReferences>().LocalHealthBar;
+			LocalHealthBar.SetActive (true);
+			GameObject AmmoObject = GameObject.Find ("GameManager").GetComponent<GameManagerReferences>().AmmoObject;
+			AmmoObject.SetActive (true);
+			//GameObject ChangeNameHolder = GameObject.Find ("GameManager").GetComponent<GameManagerReferences>().ChangeNameHolder;
+			//ChangeNameHolder.SetActive (true);
 			sceneCamera = Camera.main;
 			if(sceneCamera != null){
 				sceneCamera.gameObject.SetActive (false);
@@ -52,7 +60,16 @@ public class PlayerSetup : NetworkBehaviour {
 			sceneCamera.gameObject.SetActive(true);
 			//GetComponentInChildren<AudioListener>().enabled = false;
 		}
-
-		GameManager.DeRegisterPlayer (transform.name);
+		if (isLocalPlayer) {
+			//GameObject Crosshair = GameObject.Find ("GameManager").GetComponent<GameManagerReferences> ().crosshairHolder;
+			//Crosshair.SetActive (false);
+			GameObject LocalHealthBar = GameObject.Find ("GameManager").GetComponent<GameManagerReferences> ().LocalHealthBar;
+			LocalHealthBar.SetActive (false);
+			GameObject JetpackBar = GameObject.Find ("GameManager").GetComponent<GameManagerReferences> ().EnergyBarHolder;
+			JetpackBar.SetActive (false);
+			GameObject AmmoObject = GameObject.Find ("GameManager").GetComponent<GameManagerReferences> ().AmmoObject;
+			AmmoObject.SetActive (false);
+			GameManager.DeRegisterPlayer (transform.name);
+		}
 	}
 }

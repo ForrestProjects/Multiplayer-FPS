@@ -45,7 +45,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\CameraFacingBillboard.cs" />
      <Compile Include="Assets\FT_ImpactEffects_Vol01\Particle Playground\Scripts\Playground Splines\PlaygroundSpline.cs" />
      <Compile Include="Assets\FT_ImpactEffects_Vol01\Particle Playground\Scripts\PlaygroundC.cs" />
      <Compile Include="Assets\FT_ImpactEffects_Vol01\Particle Playground\Scripts\PlaygroundParticlesC.cs" />
@@ -56,19 +55,20 @@
      <Compile Include="Assets\FT_ImpactEffects_Vol01\Script\FTIE01_ScaleManipulatorSize.cs" />
      <Compile Include="Assets\FT_ImpactEffects_Vol01\Script\FTIE01_ScaleMesh.cs" />
      <Compile Include="Assets\FT_ImpactEffects_Vol01\Script\FTIE01_ScaleStateSize.cs" />
-     <Compile Include="Assets\GameManager.cs" />
-     <Compile Include="Assets\GameManagerReferences.cs" />
-     <Compile Include="Assets\HealthBar.cs" />
-     <Compile Include="Assets\HoverBar.cs" />
-     <Compile Include="Assets\MouseManager.cs" />
-     <Compile Include="Assets\Player.cs" />
-     <Compile Include="Assets\PlayerDeath.cs" />
-     <Compile Include="Assets\PlayerRespawn.cs" />
-     <Compile Include="Assets\PlayerShoot.cs" />
-     <Compile Include="Assets\PlayerWeaponScript.cs" />
+     <Compile Include="Assets\Scripts\CameraFacingBillboard.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\GameManagerReferences.cs" />
+     <Compile Include="Assets\Scripts\HealthBar.cs" />
+     <Compile Include="Assets\Scripts\HoverBar.cs" />
+     <Compile Include="Assets\Scripts\MouseManager.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\PlayerDeath.cs" />
      <Compile Include="Assets\Scripts\PlayerMotor.cs" />
+     <Compile Include="Assets\Scripts\PlayerRespawn.cs" />
      <Compile Include="Assets\Scripts\PlayerSetup.cs" />
+     <Compile Include="Assets\Scripts\PlayerShoot.cs" />
+     <Compile Include="Assets\Scripts\PlayerWeaponScript.cs" />
      <Compile Include="Assets\blexbox\InstantGoodDay\script\Ambient.cs" />
      <Compile Include="Assets\blexbox\InstantGoodDay\script\InstantGoodDay.cs" />
      <None Include="Assets\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
@@ -78,13 +78,17 @@
      <None Include="Assets\FT_ImpactEffects_Vol01\Shader\FT_Emission.shader" />
      <None Include="Assets\FT_ImpactEffects_Vol01\Shader\FT_Panner.shader" />
      <None Include="Assets\FT_ImpactEffects_Vol01\Shader\FT_AlphaBlend.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\FT_ImpactEffects_Vol01\Shader\FT_EmissionChannel_DoubleSide.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\MentalDreamsAssets\SoldierSoundsPack\ReadMe!.txt" />
      <None Include="Assets\blexbox\InstantGoodDay\material\bbDifuseNoFog.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
      <None Include="Assets\blexbox\InstantGoodDay\material\bbDifuseAlphaNoFog.shader" />
      <None Include="Assets\FT_ImpactEffects_Vol01\Shader\FT_Panner_DoubleSide.shader" />
      <None Include="Assets\FT_ImpactEffects_Vol01\Shader\FT_Distortion.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

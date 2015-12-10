@@ -14,6 +14,7 @@ public class PlayerMotor : MonoBehaviour {
 	private float currentcamerarotationX = 0f;
 
 
+
 	[SerializeField]
 	private float cameraRotationLimit = 85f;
 
